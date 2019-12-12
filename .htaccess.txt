@@ -1,4 +1,7 @@
-AuthUserFile .htpasswd
+AuthUserFile .htpasswd.txt
 AuthType Basic
-AuthName "My Secret Folder"
-Require valid-user
+AuthName "My Secret Page"
+
+<Files "site.html">
+  Require valid-user
+</Files>
