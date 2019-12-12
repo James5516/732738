@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<?php session_start();?>
 <head>
 
   <meta charset="utf-8">
@@ -56,8 +57,9 @@ function check(form)/*function to check userid & password*/
 {
  /*the following code checkes whether the entered userid and password are matching*/
  if(form.userid.value == "admin" && form.pswrd.value == "creator")
+	$_SESSION['authenticated']=true;
   {
-    window.open('site.html')/*opens the target page while Id & password matches*/
+    window.open('site.php')/*opens the target page while Id & password matches*/
   }
  else
  {
