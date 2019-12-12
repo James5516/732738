@@ -85,8 +85,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .video{
-	height=:50%;
-	width=:20%;
+	height=:100%;
+	width=:40%;
 }
 
 .scroll{
@@ -9745,6 +9745,7 @@ a.text-dark:hover, a.text-dark:focus {
 .portfolio {
   margin-bottom: -30px;
 }
+
 
 .portfolio .portfolio-item {
   cursor: pointer;
