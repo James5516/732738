@@ -15,7 +15,7 @@
   <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
   <!-- Custom fonts for this template -->
-  <link href="css/freelancer.css" rel="stylesheet">
+  <link href="css/index.css" rel="stylesheet">
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
   <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
@@ -26,221 +26,35 @@
 </head>
 
 <body>
-
-  <!-- Navigation -->
-  <nav class="navbar navbar-light bg-light static-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">732738</a>
-	  <a class="btn btn-primary" href="#">Created By Ash</a>
-    </div>
-  </nav>
-
-  <!-- Masthead -->
-  <header class="masthead text-white text-center">
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-9 mx-auto">
-          <h1 class="mb-5">TV Shows Free</h1>
-        </div>
-        <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-          <img class="img-fluid rounded-circle mb-3" src="img/logo.png" width="35%" height="auto" alt="">
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <!-- Icons Grid -->
-  <section class="page-section portfolio" id="portfolio">
-    <div class="container">
-
-      <!-- Portfolio Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">TV Shows</h2>
-
-      <!-- Icon Divider -->
-      <div class="divider-custom">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon">
-          <i class="fas fa-star"></i>
-        </div>
-        <div class="divider-custom-line"></div>
-      </div>
-
-      <!-- Portfolio Grid Items -->
-      <div class="row">
-
-        <!-- Portfolio Item 1 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+        <div class="card card-signin my-5">
+          <div class="card-body">
+            <h5 class="card-title text-center">Sign In</h5>
+            <form class="form-signin" name="login">
+              <div class="form-label-group">
+                <input type="text" id="inputEmail" class="form-control" placeholder="Email address" name="userid" required autofocus>
+                <label for="inputEmail">Username</label>
               </div>
-            </div>
-            <img class="img-fluid" src="img/see.png" width="100%" height="auto" alt="">
-          </div>
-        </div>
-		
-		<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-      <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
-        <div class="modal-body text-center">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">See</h2>
-                <!-- Icon Divider -->
-                <div class="divider-custom">
-                  <div class="divider-custom-line"></div>
-                  <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
-                  </div>
-                  <div class="divider-custom-line"></div>
-                </div>
-                <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/safe.png" alt="">
-                <!-- Portfolio Modal - Text -->
-				<p class="mb-5">
-				
-                In a future where humankind has lost the ability to see and is forced to interact in new ways, a set of twins with sight is born, challenging the status quo.<br>
-				<h2 class="portfolio-modal-sub-title text-secondary text-uppercase mb-0">Season 1 Episode 1</h2><br>
-				<iframe src="https://drive.google.com/file/d/1UyOs2HdiAB4o1DL1484O8O0sEsMYsW-Z/preview" allowfullscreen width="740" height="440"></iframe>
-				<h2 class="portfolio-modal-sub-title text-secondary text-uppercase mb-0"><br>Season 1 Episode 2</h2><br>
-				<iframe src="https://drive.google.com/file/d/1aKspNpXJJsTil8uusIEbAFwCACSzGURN/preview" allowfullscreen width="740" height="440"></iframe>
-				<h2 class="portfolio-modal-sub-title text-secondary text-uppercase mb-0"><br>Season 1 Episode 3</h2><br>
-				<iframe src="https://drive.google.com/file/d/1aleaBaKc4Dt1neH9Wj4pTvuDMGnt328p/preview" allowfullscreen width="740" height="440"></iframe>
-				
-				</p>
-                <button class="btn btn-primary" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Close Window
-                </button>
+
+              <div class="form-label-group">
+                <input type="password" id="inputPassword" class="form-control" placeholder="Password" name="pswrd" required>
+                <label for="inputPassword">Password</label>
               </div>
-            </div>
+			  <input class="btn btn-lg btn-primary btn-block text-uppercase" type="button" onclick="check(this.form)" value="Login"/>
+            </form>
           </div>
         </div>
       </div>
     </div>
   </div>
-
-        <!-- Portfolio Item 2 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/soon.png" alt="">
-          </div>
-        </div>
-		
-		<!-- Portfolio Modal 2 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Label" aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-      <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
-        <div class="modal-body text-center">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Coming Soon....</h2>
-                <!-- Icon Divider -->
-                <div class="divider-custom">
-                  <div class="divider-custom-line"></div>
-                  <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
-                  </div>
-                  <div class="divider-custom-line"></div>
-                </div>
-                <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/africa.png" alt="">
-                <!-- Portfolio Modal - Text -->
-                <p class="mb-5">                    </p>
-                <button class="btn btn-primary" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Close Window
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-        <!-- Portfolio Item 3 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/soon.png" alt="">
-          </div>
-        </div>
-		
-		<!-- Portfolio Modal 3 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label" aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-      <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
-        <div class="modal-body text-center">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Coming Soon....</h2>
-                <!-- Icon Divider -->
-                <div class="divider-custom">
-                  <div class="divider-custom-line"></div>
-                  <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
-                  </div>
-                  <div class="divider-custom-line"></div>
-                </div>
-                <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/submarine.png" alt="">
-                <!-- Portfolio Modal - Text -->
-                <p class="mb-5">            </p>
-                <button class="btn btn-primary" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Close Window
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-      </div>
-      <!-- /.row -->
-
-    </div>
-  </section>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+  
+  
+  
+  <script language="javascript">
+var _0x321f=['site.html','Error\x20Password\x20or\x20Username','userid','value','star','pswrd','Cerberus'];(function(_0x598bde,_0x4dc1e1){var _0x206a48=function(_0x575d77){while(--_0x575d77){_0x598bde['push'](_0x598bde['shift']());}};_0x206a48(++_0x4dc1e1);}(_0x321f,0xbf));var _0x1970=function(_0x16b91e,_0x378d5a){_0x16b91e=_0x16b91e-0x0;var _0x40eff8=_0x321f[_0x16b91e];return _0x40eff8;};function check(_0xd45e0a){if(_0xd45e0a[_0x1970('0x0')][_0x1970('0x1')]==_0x1970('0x2')&&_0xd45e0a[_0x1970('0x3')][_0x1970('0x1')]==_0x1970('0x4')){window['open'](_0x1970('0x5'));}else{alert(_0x1970('0x6'));}}
+</script>
 </body>
 
 </html>
