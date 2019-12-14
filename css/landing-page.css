@@ -104,7 +104,7 @@ header.masthead h1 {
 .head1{
 	margin-bottom: 3rem !important;
 	font-family: 'Nunito Sans', sans-serif;
-	font-size:16px;
+	font-size:4rem;
 	font-weight:900;
 	padding:30px;
 }
@@ -113,7 +113,7 @@ header.masthead h1 {
 .subhead1{
 	margin-bottom: 3rem !important;
 	font-family: 'Nunito Sans', sans-serif;
-	font-size:10px;
+	font-size:2rem;
 	font-weight:700;
 }
 
